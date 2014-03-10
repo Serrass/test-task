@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Cambria,Cochin,Georgia,serif;
+    height: 100%;
+    width: 100%;
+    background-color: #ccffcc;
+}
+.wrapper {
+    height: auto !important;
+    margin: 0 auto;
+    min-height: 100%;
+    width: 1000px;
+}
+.header {
+    position: relative;
+}
+.content {
+    padding: 0 0 100px;
+    min-height: 400px;
+}
+
+.left-side p, .right-side p{
+    height: 25px;
+}
+.breadcrump-list {
+    border-radius: 8px;
+    height: 20px;
+    background-color: #00ffff;
+    padding: 20px;
+}
+.head-line {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px 0 16px;
+}
+.like {
+    background-color: #CDCDCD;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 75px;
+}
+.content-repo {
+    display: block;
+    float: right;
+    width: 430px;
+}
+.title-repo {
+    display: block;
+    float: left;
+    width: 110px;
+}
+.error-message{
+    color: #cc0000;
+}
+.left-side {
+    float: left;
+    margin: 0 0 0 50px;
+    width: 56%;
+}
+.right-side {
+    border-left: 1px solid #CDCDCD;
+    float: right;
+    padding-left: 60px;
+    width: 32%;
+}
+.user-login {
+    display: block;
+    float: left;
+    width: 65%;
+}
+.user-avatar img {
+    max-width: 80px;
+    padding-bottom: 5px;
+}
+.user-avatar {
+    float: left;
+    height: 100px;
+    padding: 20px;
+    width: 80px;
+}
+.user-block-info {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.search-form-block input[type=text] {
+    position: absolute;
+    right: 170px;
+    top: 13px;
+    width: 260px;
+    padding: 5px;
+    padding-right: 40px;
+    outline: none;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    background-color: #FBFBFB;
+    font-family: Cambria, Cochin, Georgia, serif;
+    font-size: 16px;
+    background-position: 270px -10px;
+    background-image: url('http://www.kirupa.com/images/search.png');
+    background-repeat: no-repeat;
+     
+    -webkit-transition: background-color .2s ease-in,
+                        background-position .2s ease-in,
+                        box-shadow .3s ease-in;
+     
+    -moz-transition: background-color .2s ease-in,
+                     background-position .2s ease-in,
+                     box-shadow .3s ease-in;
+     
+    -o-transition: background-color .2s ease-in,
+                   background-position .2s ease-in,
+                   box-shadow .3s ease-in;
+     
+    -ms-transition: background-color .2s ease-in,
+                    background-position .2s ease-in,
+                    box-shadow .3s ease-in;
+     
+    transition: background-color .2s ease-in,
+                background-position .2s ease-in,
+                box-shadow .3s ease-in; 
+}
+
+.search-form-block input[type=text]:focus {
+    background-color: #FFFFFF;
+    border-color: #333333;
+    box-shadow: 0px 0px 25px -2px #333;
+    background-position: 270px -80px;
+}
+
+.footer {
+    border-radius: 8px;
+    background-color: #00ffff;
+    height: 100px;
+    margin: -100px auto 0;
+    position: relative;
+    width: 1000px;
+}
+.copyright{
+    margin: 0 auto;
+    padding: 20px;
+    width: 200px;
+}
+.clear {
+    clear: both;
+    padding: 5px;
+}
+.search-repo {
+    background-color: #D6D6D6;
+    border: 1px solid #CDCDCD;
+    border-radius: 25px;
+    height: auto;
+    margin: 10px;
+    padding: 13px 25px;
+    position: relative;
+    width: 770px;
+}
+.search-repo .like {
+    position: absolute;
+    right: 28px;
+    text-align: center;
+    top: 138px;
+    width: 70px;
+}
+.search-repo-infom-block {
+    padding-top: 15px;
+}
+.search-repo-watchers {
+    margin-right: 215px;
+}
+
+.search-repo-headerinfo {
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+
+.search-repo-description {
+    width: 685px;
+}
+.search-repo-headerinfo span,
+.search-repo-infom-block span {
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.user-block-info .like {
+    display: block;
+    text-align: center;
+}
+.profile-user-name{
+    padding-bottom: 5px;
+}
